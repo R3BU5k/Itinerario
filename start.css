@@ -71,6 +71,7 @@ body {
         background-color: rgb(43, 211, 226);
         margin: 3%;
         font-size: 250%;
+        flex-basis: 18%;
     }
     .navbar{
         background-color: rgba(226, 49, 43, 0);
