@@ -1,0 +1,75 @@
+.titolo {
+	font-size:48px; 
+	font-weight:900; 
+	font-family:Arial;
+	color:white;
+}
+.testo {
+	
+}
+body {
+  background-image: url("Sfondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+img {
+	margin-top: 0px;		/*margine sopra*/
+	margin-bottom: 0px;		/*margine sotto*/
+}
+#inizio {
+	float: center;
+	font-size: 1.5vw;
+	font-family:sans-serif;
+	color: white;
+	width: 62%;
+}
+#sviluppo1 {
+	float: left;
+	font-size: 1.65vw;
+	font-family:sans-serif;
+	color: white;
+	width: 20%;
+	text-align: justify;
+	padding-top: 2%;
+	padding-left: 5%;
+	padding-right: 0%;
+}
+#sviluppo2 {
+	float: right;
+	font-size: 1.65vw;
+	font-family:sans-serif;
+	color: white;
+	width: 20%;
+	text-align: justify;
+	padding-top: 3%;
+	padding-left: 0%;
+	padding-right: 3%;
+}
+#conclusione {
+	float: center;
+	font-size: 22px; 
+	font-family:sans-serif;
+	color: white;
+	width: 60%;
+	padding-top: 2%;
+}
+#img1 {
+	width: 20%;
+	float: left;
+	padding-top: 30px;
+}
+#img2 {
+	width: 20%;
+	float: right;
+	padding-top: 30px;
+}
+#img3 {
+	width: 40%;
+	float: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.smusso {
+	border-radius: 30px;
+	border: 8px solid #FFFFFF;
+}

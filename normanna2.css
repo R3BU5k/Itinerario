@@ -1,0 +1,79 @@
+.titolo {
+	font-size:3.4vw; 
+	font-weight:900; 
+	font-family:Arial;
+	color:white;
+}
+.testo {
+	
+}
+body {
+  background-image: url("Sfondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+img {
+	
+}
+#inizio {
+	float: center;
+	font-size: 1.5vw;
+	font-family:sans-serif;
+	color: white;
+	width: 60%;
+	padding:2% 0% 2% 0%; /*sopra-destra-sotto-sinistra*/
+}
+#sviluppo1 {
+	float: left;
+	font-size: 1.5vw;
+	font-family:sans-serif;
+	color: white;
+	width: 38%;
+	text-align: justify;
+	padding:7% 0% 7% 0%; /*sopra-destra-sotto-sinistra*/
+}
+#sviluppo2 {
+	float: center;
+	font-size: 1.4vw;
+	font-family:sans-serif;
+	color: white;
+	width: 100%;
+	text-align: justify;
+	padding:4% 1% 0% 2%; /*sopra-destra-sotto-sinistra*/
+}
+#conclusione {
+	float: center;
+	font-size: 1.4vw; 
+	font-family:sans-serif;
+	color: white;
+	width: 60%;
+	padding:2% 0% 2% 0%; /*sopra-destra-sotto-sinistra*/
+}
+#img1 {
+	width: 15%;
+	float: left;
+	padding:2% 0% 2% 0%; /*sopra-destra-sotto-sinistra*/
+}
+#img2 {
+	width: 15%;
+	float: right;
+	padding:2% 0% 2% 0%; /*sopra-destra-sotto-sinistra*/
+}
+#img3 {
+	width: 100%;
+	float: right;
+	padding:0%; /*sopra-destra-sotto-sinistra*/
+}
+.smusso {
+	border-radius: 30px;
+	border: 8px solid #FFFFFF;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-container > div {
+  width: 100%;
+  text-align: center;
+}

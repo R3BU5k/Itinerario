@@ -1,0 +1,76 @@
+.titolo {
+	font-size:48px; 
+	font-weight:900; 
+	font-family:Arial;
+	color:white;
+}
+.testo {
+	
+}
+body {
+  background-image: url("Sfondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+img {
+	margin-top: 0px;		/*margine sopra*/
+	margin-bottom: 0px;		/*margine sotto*/
+}
+#inizio {
+	float: center;
+	font-size: 22px; 
+	font-family:sans-serif;
+	color: white;
+	width: 62%;
+}
+#sviluppo1 {
+	border-radius: 30px;
+	float: center;
+	font-size: 140%; 
+	font-family:sans-serif;
+	color: white;
+	width: 40%;
+	text-align: justify;
+	padding:2% 5% 0% 5%;
+}
+#conclusione {
+	border-radius: 30px;
+	float: center;
+	text-align: justify;
+	font-size: 140%; 
+	font-family:sans-serif;
+	color: white;
+	width: 40%;
+	padding:2% 5% 0% 5%;
+}
+#img1 {
+	width: 20%;
+	float: left;
+	padding:1% 0% 0% 0%; /*grandezza riquadro del div*//*sopra-destra-sotto-sinistra*/
+}
+#img2 {
+	width: 18%;
+	float: right;
+	padding-right: 0px; /*grandezza riquadro del div*/
+	padding-left: 0px;
+	padding-top: 30px;
+}
+#img3 {
+	width: 100%;
+	float: center;
+	padding: 1% 0% 1% 0%;
+}
+.smusso {
+	border-radius: 30px;
+	border: 8px solid #FFFFFF;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-container > div {
+  width: 100%;
+  text-align: center;
+}
+
