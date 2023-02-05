@@ -27,7 +27,7 @@ body {
     background-color: rgba(43, 205, 226, 0.2);
     display: flex;
     font-size: 300%;
-    color: rgb(53, 220, 20);
+    color: rgb(220, 20, 20);
     text-shadow: 2px  2px 4px rgb(255, 230, 0),
                  3px 3px 6px rgb(255, 0, 0);
     padding: 1% 5% 1% 5%;
