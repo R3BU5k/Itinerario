@@ -1,0 +1,204 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url("Poppins/Poppins-Regular.ttf");
+    font-family: 'Bold-Poppins';
+    src: url("Poppins/Poppins-BoldItalic.ttf");
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("Sfondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+img{
+    border-radius: 30px;
+	border: 8px solid #FFFFFF;
+}
+.titolo {
+	font-size:3.4vw; 
+	font-weight:900; 
+	font-family:Arial;
+	color:white;
+    text-align: center;
+}
+.inizio {
+    /*border: 4px solid #09ff00;*/
+    display: flex;
+    padding: 1% 2% 1% 2%;
+    justify-content: space-between;
+    /*flex-wrap: wrap; da problemi con il layout mobile*/
+    border-radius: 30px;
+}
+.sviluppo {
+    /*border: 4px solid #eeff00;*/
+    display: flex;
+    padding: 1% 2% 1% 2%;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 30px;
+}
+.conclusione {
+    /*border: 4px solid #3c00ff;*/
+    display: flex;
+    padding: 1% 2% 1% 2%;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 30px;
+}
+.testo {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    flex-basis: 60%;
+    font-size: 140%;
+    padding: 3%;
+    color: #ffffff;
+    background-color: #ffffff2e;
+    border-radius: 50px;
+}
+.testo2 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    flex-basis: 30%;
+    font-size: 140%;
+    padding: 2%;
+    margin: 1%;
+    color: #ffffff;
+    background-color: #ffffff2e;
+    border-radius: 50px;
+}
+.testo3 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    flex-basis: 80%;
+    font-size: 140%;
+    padding: 3%;
+    color: #ffffff;
+    background-color: #ffffff2e;
+    border-radius: 50px;
+}
+.sinistra{
+   /* border: 4px solid #2200ff;*/
+    padding: 5% 0% 0% 0%;
+    border-radius: 30px;
+    flex-basis: 18%;
+}
+.destra{
+    /*border: 4px solid #ff00e1;*/
+    padding: 5% 0% 0% 0%;
+    border-radius: 30px;
+    flex-basis: 18%;
+}
+
+.foto {
+    /*border: 4px solid #ff00e1;*/
+    flex-basis: 30%;
+    padding-top: 2%;
+}
+.foto2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.foto2 img{
+    object-fit: scale-down;
+}
+.contenitore {
+    flex-basis:20%;
+}
+.text-container{
+    flex-basis: 60%;
+}
+.text-container2{
+    flex-basis: 30%;
+    margin: 2%;
+}
+.text-container3{
+    flex-basis: 80%;
+}
+@media (max-width: 1000px){
+    .titolo {
+        font-size:6.4vw; 
+        font-weight:900; 
+        font-family:Arial;
+        color:white;
+        text-align: center;
+    }
+    .inizio {
+        flex-direction: column;
+    }
+    .sinistra{
+        padding: 0%;
+        margin-left: 10%;
+        margin-right: 10%;
+        height: 420px;
+    }
+    .destra{
+        padding: 0%;
+        margin-left: 10%;
+        margin-right: 10%;
+        height: 400px;
+    }
+    .sinistra img {
+        width: 100%;
+        height:100%;
+        object-fit: fill;
+    }
+    .destra img {
+        width: 100%;
+        height:100%;
+        object-fit: fill;
+    }
+    .foto{
+        padding-top: 2%;
+        margin-left: 20%;
+        margin-right: 20%;
+        height: 400px;
+    }
+    .foto img{
+        object-fit: fill;
+    }
+    .sviluppo {
+        display: flex;
+        flex-direction: column;
+        padding: 1% 2% 1% 2%;
+        justify-content: center;
+        flex-wrap: wrap;
+        border-radius: 30px;
+    }
+    .testo {
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        flex-basis: 60%;
+        font-size: 240%;
+        padding: 3%;
+        background-color: #ffffff2e;
+        border-radius: 50px;
+    }
+    .testo2 {
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        flex-basis: 30%;
+        font-size: 240%;
+    }
+    .testo3 {
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        flex-basis: 80%;
+        font-size: 240%;
+        float: left;
+        padding: 3%;
+        background-color: #ffffff2e;
+        border-radius: 50px;
+    }
+    .foto2{
+        display: flex;
+        flex-direction: ;
+    }
+    .contenitore {
+        flex-basis:30%;
+    }
+}
+
