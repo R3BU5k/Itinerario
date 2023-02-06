@@ -117,7 +117,7 @@ img{
 .text-container3{
     flex-basis: 80%;
 }
-@media (max-width: 1000px){
+@media (max-width: 1200px){
     .titolo {
         font-size:6.4vw; 
         font-weight:900; 
