@@ -15,8 +15,7 @@ body {
     background-size: cover;
   }
 img{
-    border-radius: 30px;
-	border: 8px solid #FFFFFF;
+    
 }
 .titolo {
 	font-size:3.4vw; 
@@ -133,23 +132,23 @@ img{
         padding: 0%;
         margin-left: 10%;
         margin-right: 10%;
-        height: 420px;
+        height: 300px;
     }
     .destra{
         padding: 0%;
         margin-left: 10%;
         margin-right: 10%;
-        height: 400px;
+        height: 350px;
     }
     .sinistra img {
         width: 100%;
         height:100%;
-        object-fit: fill;
+        object-fit: contain;
     }
     .destra img {
         width: 100%;
         height:100%;
-        object-fit: fill;
+        object-fit: contain;
     }
     .foto{
         padding-top: 2%;
