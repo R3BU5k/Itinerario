@@ -30,7 +30,6 @@ img{
     display: flex;
     padding: 1% 2% 1% 2%;
     justify-content: space-between;
-    flex-wrap: wrap;
     border-radius: 30px;
 }
 .sviluppo {
@@ -190,7 +189,7 @@ img{
         height: 350px;
     }
     .foto img2{
-        object-fit: fill;
+        object-fit: contain;
     }
 }
 
