@@ -1,8 +1,15 @@
 @font-face {
     font-family: 'Poppins';
     src: url("Poppins/Poppins-Regular.ttf");
+    
+}
+@font-face {
     font-family: 'Bold-Poppins';
     src: url("Poppins/Poppins-BoldItalic.ttf");
+}
+@font-face {
+    font-family: 'Itim';
+    src: url("Itim/Itim-Regular.ttf");
 }
 
 *{
@@ -15,7 +22,8 @@ body {
     background-size: cover;
   }
 img{
-    
+    border-radius: 30px;
+	border: 8px solid #FFFFFF;
 }
 .titolo {
 	font-size:3.4vw; 
@@ -33,11 +41,11 @@ img{
     border-radius: 30px;
 }
 .sviluppo {
-    /*border: 4px solid #eeff00;*/
+    /*border: 4px solid #09ff00;*/
     display: flex;
     padding: 1% 2% 1% 2%;
-    justify-content: center;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    /*flex-wrap: wrap; da problemi con il layout mobile*/
     border-radius: 30px;
 }
 .conclusione {
@@ -50,7 +58,7 @@ img{
 }
 .testo {
     text-align: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: Itim;
     flex-basis: 60%;
     font-size: 140%;
     padding: 3%;
@@ -60,7 +68,7 @@ img{
 }
 .testo2 {
     text-align: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: Itim;
     flex-basis: 30%;
     font-size: 140%;
     padding: 2%;
@@ -71,7 +79,7 @@ img{
 }
 .testo3 {
     text-align: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: Itim;
     flex-basis: 80%;
     font-size: 140%;
     padding: 3%;
@@ -80,7 +88,7 @@ img{
     border-radius: 50px;
 }
 .sinistra{
-   /* border: 4px solid #2200ff;*/
+   /*border: 4px solid #2200ff;*/
     padding: 5% 0% 0% 0%;
     border-radius: 30px;
     flex-basis: 18%;
@@ -95,17 +103,7 @@ img{
 .foto {
     /*border: 4px solid #ff00e1;*/
     flex-basis: 30%;
-    padding-top: 2%;
-}
-.foto2 {
-    display: flex;
-    justify-content: space-evenly;
-}
-.foto2 img{
-    object-fit: scale-down;
-}
-.contenitore {
-    flex-basis:20%;
+    padding: 2% 0% 0% 0%;
 }
 .text-container{
     flex-basis: 60%;
@@ -117,7 +115,7 @@ img{
 .text-container3{
     flex-basis: 80%;
 }
-@media (max-width: 1200px){
+@media (max-width: 1000px){
     .titolo {
         font-size:6.4vw; 
         font-weight:900; 
@@ -132,72 +130,68 @@ img{
         padding: 0%;
         margin-left: 10%;
         margin-right: 10%;
-        height: 300px;
+        height: 420px;
     }
     .destra{
         padding: 0%;
         margin-left: 10%;
         margin-right: 10%;
-        height: 350px;
+        height: 400px;
     }
     .sinistra img {
         width: 100%;
         height:100%;
-        object-fit: contain;
+        object-fit: fill;
     }
     .destra img {
         width: 100%;
         height:100%;
-        object-fit: contain;
+        object-fit: fill;
     }
     .foto{
-        padding-top: 2%;
+        padding: 0%;
         margin-left: 20%;
         margin-right: 20%;
         height: 400px;
     }
     .foto img{
+        width: 100%;
+        height:100%;
         object-fit: fill;
     }
     .sviluppo {
-        display: flex;
         flex-direction: column;
-        padding: 1% 2% 1% 2%;
-        justify-content: center;
-        flex-wrap: wrap;
-        border-radius: 30px;
     }
     .testo {
         text-align: center;
-        font-family: 'Poppins', sans-serif;
+        font-family: Itim;
         flex-basis: 60%;
-        font-size: 240%;
+        font-size: 1.8vw;
         padding: 3%;
         background-color: #ffffff2e;
         border-radius: 50px;
     }
     .testo2 {
         text-align: center;
-        font-family: 'Poppins', sans-serif;
+        font-family: Itim;
         flex-basis: 30%;
-        font-size: 240%;
+        font-size: 1.8vw;
     }
     .testo3 {
         text-align: center;
-        font-family: 'Poppins', sans-serif;
+        font-family: Itim;
         flex-basis: 80%;
-        font-size: 240%;
+        font-size: 1.8vw;
         float: left;
         padding: 3%;
         background-color: #ffffff2e;
         border-radius: 50px;
     }
     .foto2{
-        display: flex;
-        flex-direction: ;
-    }
-    .contenitore {
-        flex-basis:30%;
+        padding-top: 2%;
+        margin-left: 20%;
+        margin-right: 20%;
+        height: 350px;
     }
 }
 

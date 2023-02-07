@@ -1,11 +1,25 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url("Poppins/Poppins-Regular.ttf");
+    
+}
+@font-face {
+    font-family: 'Bold-Poppins';
+    src: url("Poppins/Poppins-BoldItalic.ttf");
+}
+@font-face {
+    font-family: 'Itim';
+    src: url("Itim/Itim-Regular.ttf");
+}
+
 .titolo {
 	font-size:48px; 
 	font-weight:900; 
-	font-family:Arial;
+	font-family: sans-serif;
 	color:white;
 }
 .testo {
-	
+	font-family: Itim;
 }
 body {
   background-image: url("Sfondo.jpg");
@@ -19,7 +33,7 @@ img {
 #inizio {
 	float: center;
 	font-size: 22px; 
-	font-family:sans-serif;
+	font-family: 'Poppins', sans-serif;
 	color: white;
 	width: 62%;
 }
@@ -28,7 +42,7 @@ img {
 	border-radius: 30px;
 	float: center;
 	font-size: 140%; 
-	font-family:sans-serif;
+	font-family: Itim;
 	color: white;
 	width: 40%;
 	text-align: justify;
@@ -40,7 +54,7 @@ img {
 	float: center;
 	text-align: justify;
 	font-size: 140%; 
-	font-family:sans-serif;
+	font-family: Itim;
 	color: white;
 	width: 40%;
 	padding:2% 5% 0% 5%;
