@@ -19,7 +19,7 @@
 	color:white;
 }
 .testo {
-	font-family: Itim;
+	font-family: Poppins;
 }
 body {
   background-image: url("Sfondo.jpg");
@@ -42,7 +42,7 @@ img {
 	border-radius: 30px;
 	float: center;
 	font-size: 140%; 
-	font-family: Itim;
+	font-family: Poppins;
 	color: white;
 	width: 40%;
 	text-align: justify;
@@ -54,7 +54,7 @@ img {
 	float: center;
 	text-align: justify;
 	font-size: 140%; 
-	font-family: Itim;
+	font-family: Poppins;
 	color: white;
 	width: 40%;
 	padding:2% 5% 0% 5%;

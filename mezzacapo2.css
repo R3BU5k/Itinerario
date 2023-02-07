@@ -58,7 +58,7 @@ img{
 }
 .testo {
     text-align: center;
-    font-family: Itim;
+    font-family: Poppins;
     flex-basis: 60%;
     font-size: 140%;
     padding: 3%;
@@ -68,7 +68,7 @@ img{
 }
 .testo2 {
     text-align: center;
-    font-family: Itim;
+    font-family: Poppins;
     flex-basis: 30%;
     font-size: 140%;
     padding: 2%;
@@ -79,7 +79,7 @@ img{
 }
 .testo3 {
     text-align: center;
-    font-family: Itim;
+    font-family: Poppins;
     flex-basis: 80%;
     font-size: 140%;
     padding: 3%;
@@ -164,7 +164,6 @@ img{
     }
     .testo {
         text-align: center;
-        font-family: Itim;
         flex-basis: 60%;
         font-size: 1.8vw;
         padding: 3%;
@@ -173,13 +172,11 @@ img{
     }
     .testo2 {
         text-align: center;
-        font-family: Itim;
         flex-basis: 30%;
         font-size: 1.8vw;
     }
     .testo3 {
         text-align: center;
-        font-family: Itim;
         flex-basis: 80%;
         font-size: 1.8vw;
         float: left;
